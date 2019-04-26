@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "588777043158",
+    "firebase_url": "https://pec-event-system-3019.firebaseio.com",
+    "project_id": "pec-event-system-3019",
+    "storage_bucket": "pec-event-system-3019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588777043158:android:485ba62ac8634f40",
+        "android_client_info": {
+          "package_name": "com.example.peceventsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588777043158-f1p9nvs0ma5u4udgadvgbhh4c8uj61s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.peceventsystem",
+            "certificate_hash": "22afa99b959bb9f13e88142906d07138493b9241"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABdJn3pWnQHaH1w3gtiYl0zVIjxKfPU5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588777043158-8hq80kj7o9es9l9l5hslr8in8dkuanfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

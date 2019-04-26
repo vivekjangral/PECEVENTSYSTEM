@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="backgroung">#555959</color>
+    <color name="backgroungdark">#00bfbf</color>
+
+    <!-- color for button style -->
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <color name="gradient_start_color1">#ff675c</color>
+    <color name="gradient_end_color1">#fa5789</color>
+
+    <!-- color for tab and screen-->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_tittle_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <color name="btn_s">#f1a359</color>
+
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2E3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+</resources>

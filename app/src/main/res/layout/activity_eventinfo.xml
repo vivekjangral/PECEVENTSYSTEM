@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eventinfo">
+
+    <EditText
+        android:id="@+id/event_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:hint="Enter the Event Name"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/event_club_society"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="61dp"
+        android:entries="@array/Club_Society"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/event_or1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="430dp"
+        android:ems="10"
+        android:hint="Enter the Organiser 1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/event_or2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="Enter the Organiser 2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/event_or1_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="366dp"
+        android:ems="10"
+        android:hint="Contact Organiser 1"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/event_or2_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="237dp"
+        android:ems="10"
+        android:hint="Contact Organiser 2"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/event_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="Enter the Venue"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/event_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="174dp"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/event_date"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="215dp"
+        android:text="Click to Enter Date" />
+
+</RelativeLayout>
